@@ -93,4 +93,4 @@ OpenEXR==3.2.4
 ```
 
 ### Closing Notes
-Thank you :)
+I don't think anyone else will ever need to use this but if you do, it took me a little while to put together so thank you :)
