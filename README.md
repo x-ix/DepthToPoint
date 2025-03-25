@@ -59,7 +59,7 @@ view Options:
     --loop, -l : Loops playback
 ```
 
-### Examples:
+### Examples
 Testing the output of depth_video.mp4 with a truncation threshold of 77 and distance offset of 7 with looping playback:
 ```bash
     python DepthToPoint.py test folder/depth_video.mp4 -t 77 -d 7 -l
@@ -75,7 +75,7 @@ Viewing a looped playback of the point cloud files located in a folder:
     python DepthToPoint.py view point/cloud/folder -l
 ```
 
-### Miscellanious
+### Miscellaneous
 Contents of [requirements.txt](requirements.txt):
 ```
 tqdm==4.67.1
