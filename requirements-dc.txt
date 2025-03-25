@@ -1,0 +1,17 @@
+#Requirements for DepthCrafter (16/03/2025)
+
+--index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1 
+torchvision==0.15.2
+torchaudio==2.0.2
+
+--extra-index-url https://pypi.org/simple
+diffusers==0.29.1
+matplotlib==3.8.4
+transformers==4.41.2
+accelerate==0.30.1
+xformers==0.0.20
+mediapy==1.2.0
+fire==0.6.0
+decord==0.6.0
+OpenEXR==3.2.4
