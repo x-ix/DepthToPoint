@@ -25,24 +25,35 @@ Please take care to not overwrite the dc dependencies with those included in the
 Usage:
     python DepthToPoint.py [options]
 
+
 Options:
-    test [<depth_video_path>] [options]
-    test is used to experiment with and visualise outputs prior to saving
+    test [<depth_video_path>] [options] : test is used to experiment with and visualise outputs
+                                          prior to saving
 
-    save [<depth_video_path>] [<output_name>] [options]
-    save generates and saves point cloud files without visualisation
+    save [<depth_video_path>] [<output_name>] [options] : save generates and saves point cloud
+                                                          files without visualisation
 
-    view [<folder_path>] [options]
-    view allows for playback of existing .ply files that are direct children of a specified directory
+    view [<folder_path>] [options] : view allows for playback of existing .ply files that are
+                                     direct children of a specified directory
+
 
 test Options:
-    --truncation_threshold [<float>], -t [<float>] : Removes points in the background on the cloud based on the specified value/distance
-    --distance_offset [<float>], -d [float] : Pushes the cloud further from the point of origin if the front is too bunched up
+    --truncation_threshold [<float>], -t [<float>] : Removes points in the background on the cloud
+                                                     based on the specified value/distance
+
+    --distance_offset [<float>], -d [float] : Pushes the cloud further from the point of origin if
+                                              the front is too bunched up
+
     --loop, -l : Loops playback
 
+
 save Options:
-    --truncation_threshold [<float>], -t [<float>] : Removes points in the background on the cloud based on the specified value/distance
-    --distance_offset [<float>], -d [float] : Pushes the cloud further from the point of origin if the front is too bunched up
+    --truncation_threshold [<float>], -t [<float>] : Removes points in the background on the cloud
+                                                     based on the specified value/distance
+
+    --distance_offset [<float>], -d [float] : Pushes the cloud further from the point of origin if
+                                              the front is too bunched up
+
 
 view Options:
     --loop, -l : Loops playback
