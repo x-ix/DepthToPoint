@@ -20,7 +20,7 @@ pip install -r requirements-dc.txt
 ```
 Please take care to not overwrite the dc dependencies with those included in the original DepthCrafter project.
 
-###Usage
+### Usage
 ```
 Usage:
     python DepthToPoint.py [options]
@@ -64,7 +64,7 @@ Viewing a looped playback of the point cloud files located in a folder:
     python DepthToPoint.py view point/cloud/folder -l
 ```
 
-###Miscellanious
+### Miscellanious
 Contents of [requirements.txt](requirements.txt):
 ```
 tqdm==4.67.1
