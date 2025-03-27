@@ -4,6 +4,7 @@ A tool to convert depth map (.mp4) files into point cloud (.ply) files. Each vid
 
 This tool was designed and tested to work on Windows 11 using Python 3.11.11, other operating systems and Python versions may require a multitude of method adjustments for it to function as intended. Furthermore, the "requirements-dc.txt" requirements file for this project reflects dependencies required for the DepthCrafter (RGB to generated Depth Video) project created by Tencent. These were included as the current project does not reflect an appropriate installation method for certain dependencies when setting things up from a base/new environment. If not utilising the application to generate depth videos prior to point cloud generation it can be ignored.
 
+
 ### Installation
 
 1. Clone this repo:
@@ -59,6 +60,7 @@ view Options:
     --loop, -l : Loops playback
 ```
 
+
 ### Examples
 Testing the output of depth_video.mp4 with a truncation threshold of 77 and distance offset of 7 with looping playback:
 ```bash
@@ -74,6 +76,7 @@ Viewing a looped playback of the point cloud files located in a folder:
 ```bash
     python DepthToPoint.py view point/cloud/folder -l
 ```
+
 
 ### Miscellaneous
 Contents of [requirements.txt](requirements.txt):
@@ -102,6 +105,7 @@ fire==0.6.0
 decord==0.6.0
 OpenEXR==3.2.4
 ```
+
 
 ### Closing Notes
 I don't think anyone else will ever need to use this but if you do, it took me a little while to put together so thank you :)
