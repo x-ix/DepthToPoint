@@ -2,7 +2,7 @@
 
 A tool to convert depth map (.mp4) files into point cloud (.ply) files. Each video frame is converted individually and sequentially resulting in n output files where n is the length of the input .mp4 file in frames. Additionally, this tool leverages Open 3Ds point cloud visualisation and update methods to simulate video playback for sequential point cloud files.
 
-This tool was designed and tested to work on Windows 11, other operating systems may require a multitude of method adjustments for it to function as intended. Furthermore, the "requirements-dc.txt" requirements file for this project reflects dependencies required for the DepthCrafter (RGB to generated Depth Video) project created by Tencent. These were included as the current project does not reflect an appropriate installation method for certain dependencies when setting things up from a base/new environment. If not utilising the application to generate depth videos prior to point cloud generation it can be ignored.
+This tool was designed and tested to work on Windows 11 using Python 3.11.11, other operating systems and Python versions may require a multitude of method adjustments for it to function as intended. Furthermore, the "requirements-dc.txt" requirements file for this project reflects dependencies required for the DepthCrafter (RGB to generated Depth Video) project created by Tencent. These were included as the current project does not reflect an appropriate installation method for certain dependencies when setting things up from a base/new environment. If not utilising the application to generate depth videos prior to point cloud generation it can be ignored.
 
 ### Installation
 
